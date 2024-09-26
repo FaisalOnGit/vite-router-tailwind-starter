@@ -7,6 +7,7 @@ export default {
         primary: "#3DB2FF",
         secondary: "#FFFFFF",
         kuning: "#FFCE46",
+        bottombar: "#E6E6E6",
       },
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
