@@ -14,12 +14,14 @@ const ArrowBack = ({ link }) => {
   };
 
   return (
-    <button
-      onClick={handlePress}
-      style={{ background: "none", border: "none" }}
-    >
-      <IoArrowBack size={24} color="white" />
-    </button>
+    <div className="absolute top-4 left-4">
+      <button
+        onClick={handlePress}
+        className="bg-white h-10 w-10 rounded-lg flex items-center justify-center shadow-md"
+      >
+        <IoArrowBack size={24} color="black" />
+      </button>
+    </div>
   );
 };
 

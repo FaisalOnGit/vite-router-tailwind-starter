@@ -4,7 +4,7 @@ import ArrowBack from "../components/Arrowback";
 
 function Result() {
   return (
-    <div className="h-full bg-slate-600 p-8">
+    <div className="h-screen bg-slate-600 p-8">
       <ArrowBack link="/home" />
       <h1 className="text-[24.95px] text-center text-white font-bold">Hasil</h1>
       <h2 className="text-4xl text-center text-white mt-5 font-bold">

@@ -30,7 +30,9 @@ function Home() {
               style={{ height: "100px" }}
             />
             <div className="ml-4">
-              <h2 className="text-white text-xl font-bold">Hai! John Doe</h2>
+              <h2 className="text-white text-xl">
+                Hai, <span className="font-bold">John Doe</span>
+              </h2>
               <p className="text-white text-lg font-poppins">Selamat Pagi</p>
             </div>
           </div>
