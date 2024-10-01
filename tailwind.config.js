@@ -8,6 +8,9 @@ export default {
         secondary: "#FFFFFF",
         kuning: "#FFCE46",
         bottombar: "#E6E6E6",
+        fitur1: "#5C85AD",
+        fitur2: "#FFAD33",
+        fitur3: "#8B35A7",
       },
       fontFamily: {
         sans: ["Poppins", "sans-serif"],

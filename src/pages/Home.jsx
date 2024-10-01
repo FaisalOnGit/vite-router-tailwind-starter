@@ -39,10 +39,7 @@ function Home() {
         </div>
         <h2 className="text-2xl font-bold text-left mb-4">Home</h2>
         <div className="flex flex-wrap -mx-2">
-          <button
-            onClick={() => navigate("/result")}
-            className="w-1/2 px-2 mb-4"
-          >
+          <button onClick={() => navigate("/mbti")} className="w-1/2 px-2 mb-4">
             <div className="h-40 rounded-lg flex flex-col items-start pl-2">
               <img
                 src={Fitur1}
@@ -55,7 +52,10 @@ function Home() {
             </div>
           </button>
 
-          <div className="w-1/2 px-2 mb-4">
+          <button
+            onClick={() => navigate("/minat")}
+            className="w-1/2 px-2 mb-4"
+          >
             <div className="h-40 rounded-lg flex flex-col items-start pl-2">
               <img
                 src={Fitur2}
@@ -66,9 +66,12 @@ function Home() {
               <h3 className="font-semibold text-left">Kenali</h3>
               <h3 className="font-semibold text-left">Minat</h3>
             </div>
-          </div>
+          </button>
 
-          <div className="w-1/2 px-2 mb-4">
+          <button
+            onClick={() => navigate("/bakat")}
+            className="w-1/2 px-2 mb-4"
+          >
             <div className="h-40 rounded-lg flex flex-col items-start pl-2">
               <img
                 src={Fitur3}
@@ -79,7 +82,7 @@ function Home() {
               <h3 className="font-semibold text-left">Temukan</h3>
               <h3 className="font-semibold text-left">Bakat</h3>
             </div>
-          </div>
+          </button>
 
           <div className="w-1/2 px-2 mb-4">
             <div className="h-40 rounded-lg flex flex-col items-start pl-2">

@@ -8,6 +8,9 @@ import Home from "./pages/Home";
 import Result from "./pages/Result";
 import Profile from "./pages/Profile";
 import EditProfile from "./pages/EditProfile";
+import Mbti from "./pages/Mbti";
+import Minat from "./pages/Minat";
+import Bakat from "./pages/Bakat";
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -21,6 +24,9 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/edit" element={<EditProfile />} />
+        <Route path="/mbti" element={<Mbti />} />
+        <Route path="/minat" element={<Minat />} />
+        <Route path="/bakat" element={<Bakat />} />
         <Route path="/result" element={<Result />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
