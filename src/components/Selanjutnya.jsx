@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const Mulai = ({ link }) => {
+const Selanjutnya = ({ link }) => {
   const navigate = useNavigate();
 
   return (
@@ -10,10 +10,10 @@ const Mulai = ({ link }) => {
         onClick={() => navigate(link)}
         className="bg-primary p-3 rounded-3xl text-white w-full text-xl font-semibold font-poppins"
       >
-        Mulai
+        Selanjutnya
       </button>
     </div>
   );
 };
 
-export default Mulai;
+export default Selanjutnya;

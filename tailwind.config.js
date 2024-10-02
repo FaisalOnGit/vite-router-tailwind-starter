@@ -9,6 +9,7 @@ export default {
         kuning: "#FFCE46",
         bottombar: "#E6E6E6",
         fitur1: "#5C85AD",
+        tesmbti: "#5395B8",
         fitur2: "#FFAD33",
         fitur3: "#8B35A7",
       },

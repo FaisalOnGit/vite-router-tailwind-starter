@@ -33,7 +33,7 @@ function Bakat() {
           seseorang.
         </p>
       </div>
-      <Mulai />
+      <Mulai link="/tesbakat" />
     </div>
   );
 }

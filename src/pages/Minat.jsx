@@ -32,7 +32,7 @@ function Minat() {
           ketertarikan seseorang pada pekerjaan atau aktivitas.
         </p>
       </div>
-      <Mulai />
+      <Mulai link="/tesminat" />
     </div>
   );
 }

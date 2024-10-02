@@ -32,7 +32,7 @@ function Mbti() {
           evaluasi psikologis untuk mengungkap ciri-ciri dan perilaku seseorang.
         </p>
       </div>
-      <Mulai />
+      <Mulai link="/tesmbti" />
     </div>
   );
 }

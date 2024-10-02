@@ -9,8 +9,11 @@ import Result from "./pages/Result";
 import Profile from "./pages/Profile";
 import EditProfile from "./pages/EditProfile";
 import Mbti from "./pages/Mbti";
+import TesMbti from "./pages/TesMbti";
 import Minat from "./pages/Minat";
+import TesMinat from "./pages/TesMinat";
 import Bakat from "./pages/Bakat";
+import TesBakat from "./pages/TesBakat";
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -27,6 +30,9 @@ function App() {
         <Route path="/mbti" element={<Mbti />} />
         <Route path="/minat" element={<Minat />} />
         <Route path="/bakat" element={<Bakat />} />
+        <Route path="/tesmbti" element={<TesMbti />} />
+        <Route path="/tesminat" element={<TesMinat />} />
+        <Route path="/tesbakat" element={<TesBakat />} />
         <Route path="/result" element={<Result />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
