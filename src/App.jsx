@@ -14,7 +14,7 @@ import Minat from "./pages/Minat";
 import TesMinat from "./pages/TesMinat";
 import Bakat from "./pages/Bakat";
 import TesBakat from "./pages/TesBakat";
-import NotFound from "./pages/NotFound";
+import Kontol from "./pages/TestKontol";
 
 function App() {
   return (
@@ -34,7 +34,7 @@ function App() {
         <Route path="/tesminat" element={<TesMinat />} />
         <Route path="/tesbakat" element={<TesBakat />} />
         <Route path="/result" element={<Result />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/kontol" element={<Kontol />} />
       </Routes>
     </Router>
   );
